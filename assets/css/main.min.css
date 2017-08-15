@@ -1,0 +1,51 @@
+.rcp-container,
+.rcp-container * {
+  box-sizing: border-box;
+}
+
+.rcp-container {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: 1000;
+  border: dashed 2px #000;
+  width: 100%;
+}
+
+#rcp-cover-resize-wrapper {
+  height: 100%;
+}
+
+.rcp-button-wrap {
+  position: absolute;
+  z-index: 2000;
+  top: 20px;
+  right: 20px;
+}
+
+.rcp-button-wrap button + button {
+  margin-left: 20px;
+}
+
+.rcp-button-wrap button {
+  cursor: pointer;
+}
+
+.rcp-loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4000;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5) no-repeat center center;
+  display: none;
+}
+
+p.warning {
+  display: none !important;
+}
+
+/*# sourceMappingURL=main.min.css.map */
